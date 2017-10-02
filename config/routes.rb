@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  devise_for :users
+  resources :posts
   # Define Root URL
   root 'pages#index'
 
@@ -14,7 +16,7 @@ Rails.application.routes.draw do
   # so, if we typed in localhost:3000/pages/profile, this will get to the profile page
   # if we wanted to make this shorter and, say, accomplish the same thing by typing localhost:3000/profile instead:
   get '/home' => 'pages#home'
-  get '/profile' => 'pages#profile'
+  get '/user/:id' => 'pages#profile'
   get '/explore' => 'pages#explore'
   # this is useful because sometimes we don't want our URLs to directly reflect our file structure
 
