@@ -1,24 +1,4 @@
-# README
+# Flutter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+DIY Twitter clone based on DevFactor's Ruby on Rails tutorial found here:
+https://www.youtube.com/watch?v=kPoF0fzsFZE&list=PLP6PvXLevG9KznGLiu0AEg25iSRwwhcO-
